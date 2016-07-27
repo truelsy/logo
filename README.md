@@ -1,18 +1,12 @@
 # logo
-*logo*는 *go*언어로 작성된 간단한 로깅 라이브러리입니다.
+*logo*는 *go*언어로 작성된 간단한(Simple) 로깅 라이브러리입니다.
 
-## 설치
+## Installation
 
     $ go get github.com/truelsy/logo
 
-소스 코드는 아래 위치에 저장.
 
-    $GOPATH/src/github.com/truelsy/logo
-
-패키지 업데이트는 `go get -u` 명령어 수행.
-
-
-## 사용법
+## QuickStart
 
 ```go
 // example.go
@@ -52,3 +46,17 @@ func main() {
 }
 ```
 [![Example Output](example/example.png)]
+
+## Related Projects
+- [shiena/ansicolor](https://github.com/shiena/ansicolor)
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## License
+MIT license

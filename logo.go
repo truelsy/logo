@@ -156,7 +156,7 @@ func (logger *Logger) createNewFile() {
 		logger.rotateFileNum = 0
 	}
 
-	f, err := os.OpenFile(path.Join(logger.env.LogPath, newFileName+".log"), os.O_WRONLY|os.O_CREATE|os.O_SYNC|os.O_EXCL, 0666)
+	f, err := os.OpenFile(path.Join(logger.env.LogPath, newFileName+".log"), FileOpenFlags, 0666)
 	if err != nil {
 		return
 	}

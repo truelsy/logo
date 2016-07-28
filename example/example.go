@@ -25,7 +25,7 @@ func main() {
 	logo.Info("Info")
 	logo.Infof("Infof(%v)", 456)
 	logo.CInfo(logo.FG_YELLOW, "CInfo")
-	logo.CInfof(logo.FG_LIGHT_GREEN, "CInfof(%v)", "logo")
+	logo.CInfof(logo.FG_LIGHT_YELLOW, "CInfof(%v)", "logo")
 
 	logo.Warn("Warn")
 	logo.Warnf("Warnf(%v)", 789)

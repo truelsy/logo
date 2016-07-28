@@ -1,7 +1,10 @@
 // const.go
 package logo
 
-import "log"
+import (
+	"log"
+	"os"
+)
 
 // console color
 const (
@@ -65,4 +68,5 @@ const (
 	//PrintTimeFormat = "2006-01-02 15:04:05.000000 "
 	PrintLogFormat      = log.Ldate | log.Ltime /*| log.Lmicroseconds*/
 	PrintFileInfoFormat = "[%-14s:%-4d] %s : "
+	FileOpenFlags       = os.O_WRONLY | os.O_CREATE | os.O_EXCL /*| os.O_SYNC*/
 )

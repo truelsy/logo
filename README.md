@@ -45,7 +45,13 @@ func main() {
 	logo.Errorf("Error(%v)", 890)
 }
 ```
+Linux:
+
 [![Example Output](example/example.png)]
+
+Windows:
+
+[![Example Output](example/example_win.PNG)]
 
 ## Related Projects
 - [shiena/ansicolor](https://github.com/shiena/ansicolor)
